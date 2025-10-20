@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Company\\Taptify-SE\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Migrations\\20251020163940_Second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Migrations\\20251020163940_Second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\repositories\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\repositories\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\repositories\\accountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\repositories\\accountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\automapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\automapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\services\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\services\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\repositories\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\repositories\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\dtos\\addrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\dtos\\addrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\dtos\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\dtos\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\migrations\\20251019180712_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\migrations\\20251019180712_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|d:\\projects\\company\\taptify-se\\backend\\backend\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DCB41B-E2B4-4EE1-8F3F-9BAA3E379153}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251020163940_Second.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Migrations\\20251020163940_Second.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20251020163940_Second.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Migrations\\20251020163940_Second.cs",
+              "RelativeToolTip": "backend\\Migrations\\20251020163940_Second.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:39:40.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAccountRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Repositories\\IAccountRepo.cs",
+              "RelativeDocumentMoniker": "backend\\Repositories\\IAccountRepo.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Repositories\\IAccountRepo.cs",
+              "RelativeToolTip": "backend\\Repositories\\IAccountRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T13:48:01.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\DTOs\\LoginResponse.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\LoginResponse.cs",
+              "RelativeToolTip": "backend\\Models\\DTOs\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T13:37:54.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "backend\\Models\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T13:34:41.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "backend\\Models\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T13:32:59.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\User.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T13:32:04.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "backend\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-20T13:25:46.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:10:43.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\Response.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\DTOs\\Response.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\Response.cs",
+              "RelativeToolTip": "backend\\Models\\DTOs\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:29:45.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20251019180712_First.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Migrations\\20251019180712_First.cs",
+              "RelativeDocumentMoniker": "backend\\Migrations\\20251019180712_First.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Migrations\\20251019180712_First.cs",
+              "RelativeToolTip": "backend\\Migrations\\20251019180712_First.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T18:07:12.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\appsettings.json",
+              "RelativeToolTip": "backend\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T17:48:18.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Repositories\\AccountRepo.cs",
+              "RelativeDocumentMoniker": "backend\\Repositories\\AccountRepo.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Repositories\\AccountRepo.cs",
+              "RelativeToolTip": "backend\\Repositories\\AccountRepo.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T13:50:05.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\IAccountService.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Services\\IAccountService.cs",
+              "RelativeToolTip": "backend\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:39:32.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\AccountService.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Services\\AccountService.cs",
+              "RelativeToolTip": "backend\\Services\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:43:12.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\AutoMapper\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "backend\\AutoMapper\\MapperProfile.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\AutoMapper\\MapperProfile.cs",
+              "RelativeToolTip": "backend\\AutoMapper\\MapperProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:29:48.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "backend\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:41:10.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateRequestDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\UpdateRequestDTO.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\DTOs\\UpdateRequestDTO.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\UpdateRequestDTO.cs",
+              "RelativeToolTip": "backend\\Models\\DTOs\\UpdateRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:29:47.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProductRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Repositories\\IProductRepo.cs",
+              "RelativeDocumentMoniker": "backend\\Repositories\\IProductRepo.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Repositories\\IProductRepo.cs",
+              "RelativeToolTip": "backend\\Repositories\\IProductRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:29:48.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Repositories\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "backend\\Repositories\\ProductRepo.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Repositories\\ProductRepo.cs",
+              "RelativeToolTip": "backend\\Repositories\\ProductRepo.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA3wCYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:29:48.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Services\\ProductService.cs",
+              "RelativeToolTip": "backend\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:57:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "backend.csproj",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\backend.csproj",
+              "RelativeDocumentMoniker": "backend\\backend.csproj",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\backend.csproj",
+              "RelativeToolTip": "backend\\backend.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-19T16:17:30.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddRequestDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\AddRequestDTO.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\DTOs\\AddRequestDTO.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\AddRequestDTO.cs",
+              "RelativeToolTip": "backend\\Models\\DTOs\\AddRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:29:48.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductServices.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Services\\IProductServices.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\IProductServices.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Services\\IProductServices.cs",
+              "RelativeToolTip": "backend\\Services\\IProductServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:56:20.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResponseDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\ResponseDTO.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\DTOs\\ResponseDTO.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\DTOs\\ResponseDTO.cs",
+              "RelativeToolTip": "backend\\Models\\DTOs\\ResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T05:29:48.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Product.cs",
+              "ToolTip": "D:\\Projects\\Company\\Taptify-SE\\backend\\backend\\Models\\Entities\\Product.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:36:22.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
