@@ -10,7 +10,7 @@ namespace backend.Data
         {
         }
 
-        public DbSet<Product> Products { get; set; }
+        //public DbSet<Product> Products { get; set; }
         public DbSet<User> Users { get; set; }
 
         // NEW: favorite recipes

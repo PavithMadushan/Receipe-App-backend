@@ -10,9 +10,9 @@ namespace backend.AutoMapper
     {
         public MapperProfile()
         {
-            CreateMap<AddRequestDTO, Product>();
-            CreateMap<UpdateRequestDTO, Product>();
-            CreateMap<Product, ResponseDTO>();
+            //CreateMap<AddRequestDTO, Product>();
+            //CreateMap<UpdateRequestDTO, Product>();
+            //CreateMap<Product, ResponseDTO>();
             CreateMap<RegisterDTO, User>();
 
             // NEW: FavoriteRecipe -> FavoriteRecipeDTO

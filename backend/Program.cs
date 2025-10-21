@@ -25,9 +25,6 @@ builder.Services.AddDbContext<AppDbContext>(
     o => o.UseSqlServer(builder.Configuration.GetConnectionString("Default"))
 );
 
-// Dependency Injection
-builder.Services.AddScoped<IProductRepo, ProductRepo>();
-builder.Services.AddScoped<IProductServices, ProductService>();
 
 // AutoMapper configuration
 builder.Services.AddAutoMapper(cfg =>
@@ -127,35 +124,6 @@ app.MapPost("/login", async (LoginDTO login, IAccountService account) =>
     return Results.Ok(await account.Login(login));
 }).AllowAnonymous();
 
-
-// Minimal APIs
-app.MapGet("/GetProducts", async (IProductServices productService) =>
-{
-    return Results.Ok(await productService.GetAll());
-}).RequireAuthorization();
-
-app.MapGet("/GetProduct/{id:int}", async (IProductServices productService, int id) =>
-{
-    return Results.Ok(await productService.GetById(id));
-}).RequireAuthorization();
-
-app.MapPost("/AddProduct", async (AddRequestDTO request, IProductServices productService) =>
-{
-    return Results.Ok(await productService.Add(request));
-}).RequireAuthorization();
-
-app.MapPut("/updateProduct", async (UpdateRequestDTO request, IProductServices productService) =>
-{
-    return Results.Ok(await productService.Update(request));
-}).RequireAuthorization();
-
-app.MapGet("/deleteProduct/{id:int}", async (IProductServices productService, int id) =>
-{
-    return Results.Ok(await productService.Delete(id));
-}).RequireAuthorization();
-
-
-
 int? GetUserIdFromClaims(ClaimsPrincipal user)
 {
     var idClaim = user.FindFirst(ClaimTypes.NameIdentifier);
@@ -164,21 +132,21 @@ int? GetUserIdFromClaims(ClaimsPrincipal user)
     return null;
 }
 
-// Recipes: get categories
+// get categories
 app.MapGet("/recipes/categories", async (IRecipeService recipeService) =>
 {
     var categories = await recipeService.GetCategories();
     return Results.Ok(categories);
 }).AllowAnonymous();
 
-// Recipes: get by category
+// get category by id
 app.MapGet("/recipes/by-category/{category}", async (IRecipeService recipeService, string category) =>
 {
     var recipes = await recipeService.GetByCategory(category);
     return Results.Ok(recipes);
 }).AllowAnonymous();
 
-// Recipes: get detail by meal id
+// get detail by meal id
 app.MapGet("/recipes/{mealId}", async (IRecipeService recipeService, string mealId) =>
 {
     var detail = await recipeService.GetByMealId(mealId);
@@ -187,7 +155,7 @@ app.MapGet("/recipes/{mealId}", async (IRecipeService recipeService, string meal
 }).AllowAnonymous();
 
 
-// Favorites: add favorite (authenticated)
+// add favorite (authenticated)
 app.MapPost("/favorites", async (AddFavoriteDTO addFavoriteDTO, IFavoriteService favService, HttpContext http) =>
 {
     var userId = GetUserIdFromClaims(http.User);
@@ -196,7 +164,7 @@ app.MapPost("/favorites", async (AddFavoriteDTO addFavoriteDTO, IFavoriteService
     return Results.Ok(res);
 }).RequireAuthorization();
 
-// Favorites: get current user's favorites
+// get current user's favorites
 app.MapGet("/favorites", async (IFavoriteService favService, HttpContext http) =>
 {
     var userId = GetUserIdFromClaims(http.User);
@@ -205,7 +173,7 @@ app.MapGet("/favorites", async (IFavoriteService favService, HttpContext http) =
     return Results.Ok(list);
 }).RequireAuthorization();
 
-// Favorites: delete favorite by id
+// delete favorite by id
 app.MapDelete("/favorites/{id:int}", async (int id, IFavoriteService favService, HttpContext http) =>
 {
     var userId = GetUserIdFromClaims(http.User);

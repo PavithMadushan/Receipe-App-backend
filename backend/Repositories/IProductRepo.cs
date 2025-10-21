@@ -1,17 +1,17 @@
-﻿using backend.Models.DTOs;
+﻿//using backend.Models.DTOs;
 
-namespace backend.Repositories
-{
-    public interface IProductRepo
-    {
-        Task<Response> Add(AddRequestDTO request);
+//namespace backend.Repositories
+//{
+//    public interface IProductRepo
+//    {
+//        Task<Response> Add(AddRequestDTO request);
 
-        Task<Response> Update(UpdateRequestDTO request);
+//        Task<Response> Update(UpdateRequestDTO request);
 
-        Task<List<ResponseDTO>> GetAll();
+//        Task<List<ResponseDTO>> GetAll();
 
-        Task<ResponseDTO> GetById(int id);
+//        Task<ResponseDTO> GetById(int id);
 
-        Task<Response> Delete(int id);
-    }
-}
+//        Task<Response> Delete(int id);
+//    }
+//}
