@@ -67,21 +67,22 @@ namespace backend.Repositories
         }
 
         // ✅ GENERATE JWT TOKEN
+        // File: Repositories/AccountRepo.cs
+        // Replace the GenerateToken method implementation with the following:
+
         private string GenerateToken(User user)
         {
-            // Fetch the key from appsettings.json
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            // ✅ Create claims
             var userClaims = new[]
             {
-                new Claim("Fullname", user.Name),
-                new Claim(ClaimTypes.Name, user.Email),
-                new Claim(ClaimTypes.Email, user.Email)
-            };
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()), // <-- added: user id
+        new Claim("Fullname", user.Name),
+        new Claim(ClaimTypes.Name, user.Email),
+        new Claim(ClaimTypes.Email, user.Email)
+    };
 
-            // ✅ Corrected JWT structure (issuer, audience, expiry, claims, signing credentials)
             var token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
@@ -92,5 +93,6 @@ namespace backend.Repositories
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
     }
 }

@@ -48,7 +48,7 @@
         }
       }
     },
-    "/GetProducts": {
+    "/recipes/categories": {
       "get": {
         "tags": [
           "backend"
@@ -60,19 +60,18 @@
         }
       }
     },
-    "/GetProduct/{id}": {
+    "/recipes/by-category/{category}": {
       "get": {
         "tags": [
           "backend"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "category",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
@@ -83,7 +82,29 @@
         }
       }
     },
-    "/AddProduct": {
+    "/recipes/{mealId}": {
+      "get": {
+        "tags": [
+          "backend"
+        ],
+        "parameters": [
+          {
+            "name": "mealId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/favorites": {
       "post": {
         "tags": [
           "backend"
@@ -92,7 +113,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddRequestDTO"
+                "$ref": "#/components/schemas/AddFavoriteDTO"
               }
             }
           }
@@ -102,22 +123,11 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/updateProduct": {
-      "put": {
+      },
+      "get": {
         "tags": [
           "backend"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateRequestDTO"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -125,8 +135,8 @@
         }
       }
     },
-    "/deleteProduct/{id}": {
-      "get": {
+    "/favorites/{id}": {
+      "delete": {
         "tags": [
           "backend"
         ],
@@ -151,24 +161,12 @@
   },
   "components": {
     "schemas": {
-      "AddRequestDTO": {
+      "AddFavoriteDTO": {
         "type": "object",
         "properties": {
-          "name": {
+          "mealId": {
             "type": "string",
             "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "price": {
-            "type": "number",
-            "format": "double"
-          },
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -201,32 +199,6 @@
           "password": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateRequestDTO": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "price": {
-            "type": "number",
-            "format": "double"
-          },
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
