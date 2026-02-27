@@ -11,5 +11,8 @@ namespace backend.Repositories
         Task<FavoriteRecipe?> GetFavoriteByIdAsync(int id);
         Task DeleteFavoriteAsync(FavoriteRecipe favorite);
         Task<bool> ExistsAsync(int userId, string mealId);
+
+        // ✅ NEW METHOD — used to find a favorite by both userId and mealId
+        Task<FavoriteRecipe?> GetByUserAndMealIdAsync(int userId, string mealId);
     }
 }

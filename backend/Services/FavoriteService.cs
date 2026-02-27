@@ -22,7 +22,6 @@ namespace backend.Services
 
         public async Task<Response> AddFavorite(int userId, AddFavoriteDTO addFavoriteDTO)
         {
-            // prevent duplicates
             var exists = await _repo.ExistsAsync(userId, addFavoriteDTO.MealId);
             if (exists) return new Response(false, "Already added");
 
@@ -43,27 +42,32 @@ namespace backend.Services
 
             foreach (var f in favorites)
             {
-                // fetch details from TheMealDB
                 var detail = await _recipeService.GetByMealId(f.MealId);
-                var dto = _mapper.Map<FavoriteRecipeDTO>(f);
 
-                if (detail != null)
+                var dto = new FavoriteRecipeDTO
                 {
-                    dto.Title = detail.Title;
-                    dto.Category = detail.Category;
-                    dto.Thumbnail = detail.Thumbnail;
-                }
+                    Id = f.Id,
+                    MealId = f.MealId,
+                    AddedAt = f.CreatedAt,
+                    Title = detail?.Title ?? "Unknown",
+                    Category = detail?.Category ?? "N/A",
+                    Thumbnail = detail?.Thumbnail ?? ""
+                };
+
                 result.Add(dto);
             }
 
             return result;
         }
 
-        public async Task<Response> RemoveFavorite(int userId, int favoriteId)
+        // IMPLEMENTATION MATCHING THE INTERFACE: remove by MealId
+        public async Task<Response> RemoveFavorite(int userId, string mealId)
         {
-            var fav = await _repo.GetFavoriteByIdAsync(favoriteId);
+            var fav = await _repo.GetByUserAndMealIdAsync(userId, mealId);
             if (fav == null) return new Response(false, "Favorite not found");
-            if (fav.UserId != userId) return new Response(false, "Unauthorized");
+
+            if (fav.UserId != userId) // defensive check, though query already filtered by userId
+                return new Response(false, "Unauthorized");
 
             await _repo.DeleteFavoriteAsync(fav);
             return new Response(true, "Removed from favorites");

@@ -8,6 +8,8 @@ namespace backend.Services
     {
         Task<Response> AddFavorite(int userId, AddFavoriteDTO addFavoriteDTO);
         Task<List<FavoriteRecipeDTO>> GetFavorites(int userId);
-        Task<Response> RemoveFavorite(int userId, int favoriteId);
+
+        // UPDATED: remove by MealId (string) instead of favorite database id (int)
+        Task<Response> RemoveFavorite(int userId, string mealId);
     }
 }

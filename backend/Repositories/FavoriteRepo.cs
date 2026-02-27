@@ -43,5 +43,12 @@ namespace backend.Repositories
         {
             return await _db.FavoriteRecipes.AnyAsync(f => f.UserId == userId && f.MealId == mealId);
         }
+
+        // ✅ NEW METHOD — used for deletion by MealId
+        public async Task<FavoriteRecipe?> GetByUserAndMealIdAsync(int userId, string mealId)
+        {
+            return await _db.FavoriteRecipes
+                .FirstOrDefaultAsync(f => f.UserId == userId && f.MealId == mealId);
+        }
     }
 }

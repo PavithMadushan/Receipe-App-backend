@@ -96,16 +96,38 @@ builder.Services.AddSwaggerGen(swagger =>
     });
 });
 
+
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173", "http://localhost:5174") // Vite default ports
+                  .AllowAnyHeader()
+                  .AllowAnyMethod()
+                  .AllowCredentials();
+        });
+});
+
+
+
 var app = builder.Build();
 
+app.UseCors("AllowFrontend");
+app.UseAuthentication();
+app.UseAuthorization();
+
 // Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
+
+// Use CORS
+app.UseCors("AllowFrontend");
 
 // 🔐 Add authentication & authorization middleware
 app.UseAuthentication();
@@ -174,11 +196,22 @@ app.MapGet("/favorites", async (IFavoriteService favService, HttpContext http) =
 }).RequireAuthorization();
 
 // delete favorite by id
-app.MapDelete("/favorites/{id:int}", async (int id, IFavoriteService favService, HttpContext http) =>
+//app.MapDelete("/favorites/{id:int}", async (int id, IFavoriteService favService, HttpContext http) =>
+//{
+//    var userId = GetUserIdFromClaims(http.User);
+//    if (userId == null) return Results.Unauthorized();
+//    var res = await favService.RemoveFavorite(userId.Value, id);
+//    return Results.Ok(res);
+//}).RequireAuthorization();
+
+
+// DELETE by MealId (string)
+app.MapDelete("/favorites/{mealId}", async (string mealId, IFavoriteService favService, HttpContext http) =>
 {
     var userId = GetUserIdFromClaims(http.User);
     if (userId == null) return Results.Unauthorized();
-    var res = await favService.RemoveFavorite(userId.Value, id);
+
+    var res = await favService.RemoveFavorite(userId.Value, mealId);
     return Results.Ok(res);
 }).RequireAuthorization();
 
